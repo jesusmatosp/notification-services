@@ -1,0 +1,6 @@
+ applications:
+   - name: notification-services-garage-ibm-jm
+     random-route: false
+     path: target/notification-services-0.0.1-SNAPSHOT.jar
+     memory: 250M
+     instances: 1
